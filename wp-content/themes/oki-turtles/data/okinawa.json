@@ -219,7 +219,11 @@
             "ISO":"JPN",
             "NAME_0":"Japan",
             "NAME_1":"Okinawa",
-            "NAME_2":"Okinawa"
+            "NAME_2":"Okinawa",
+            "Facility":"Okinawa Churaumi Aquarium",
+            "Facility_JP":"美ら海水族館",
+            "Contact":"Isao Kawazu",
+            "CNumber":"0980-48-3748"
          },
          "geometry":{  
             "type":"Polygon",
@@ -1871,7 +1875,11 @@
             "ISO":"JPN",
             "NAME_0":"Japan",
             "NAME_1":"Okinawa",
-            "NAME_2":"Kume"
+            "NAME_2":"Kume",
+            "Facility":"Kumejima Turtle House",
+            "Facility_JP":"久米島ウミガメ館",
+            "Contact":"",
+            "CNumber":"098-985-7513"
          },
          "geometry":{  
             "type":"MultiPolygon",
@@ -3613,7 +3621,7 @@
             "ISO":"JPN",
             "NAME_0":"Japan",
             "NAME_1":"Okinawa",
-            "NAME_2":"Iriomote"
+            "NAME_2":"Taketomi"
          },
          "geometry":{  
             "type":"MultiPolygon",
@@ -3995,7 +4003,7 @@
             "ISO":"JPN",
             "NAME_0":"Japan",
             "NAME_1":"Okinawa",
-            "NAME_2":"Taketomi"
+            "NAME_2":"Iriomote"
          },
          "geometry":{  
             "type":"Polygon",

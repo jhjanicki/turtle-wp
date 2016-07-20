@@ -24,6 +24,8 @@
 	});
   </script>
   
+  <?php wp_footer(); ?>
+
   </body><!-- end body -->
   
    <div id="footer">

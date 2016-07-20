@@ -2,7 +2,7 @@
 
 
 
-<section class="module parallax parallax-1">		
+<section class="module parallax parallax-2">		
 	<h1> Sea Turtles of Okinawa </h1>
 </section>
 
