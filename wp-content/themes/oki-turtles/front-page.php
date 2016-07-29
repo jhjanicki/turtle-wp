@@ -9,14 +9,22 @@
 </div>
  -->
 
+<!-- 
 <section class="module parallax parallax-1">		
 	<h1> Sea Turtles of Okinawa </h1>
+	<span class='languages-home'>
+ 	 <?php qtranxf_generateLanguageSelectCode('text'); ?>
+	</span>
 </section>
 
 
 	
 	<div class="wrapper">
 	
+ -->
+ 
+ 
+ 
 			<?php if (have_posts()): while (have_posts()):the_post(); ?>
       		
       			<?php the_content(); ?>
@@ -27,7 +35,7 @@
  
        
     
-    </div> <!-- /.wrapper -->
+    <!-- </div> --> <!-- /.wrapper -->
 
 
    

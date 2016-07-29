@@ -61,6 +61,7 @@ function create_widget($name, $id, $description){
 
 create_widget('Page Sidebar', 'page', 'Displays on the pages with a call to sidebar');
 create_widget('Blog Sidebar', 'blog', 'Displays on the blog with a call to sidebar');
+create_widget('Front Page Parallax', 'front-parallax', 'Displays the main image of the homepage');
 
 
 ?>

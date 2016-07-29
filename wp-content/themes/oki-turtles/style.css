@@ -112,6 +112,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 			transition: opacity 0.35s;
 		}
 
+		.overlay-effect figcaption p.text-black{
+			color:black;
+			font-weight:400;
+			margin-top:-10px;
+		}
+		
+		.overlay-effect:hover figcaption h2.text-black{
+			color:black;
+			
+		}
 
 		.overlay-effect figcaption::before {
 			position: absolute;
@@ -1081,7 +1091,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		section.module.parallax-1 h1 {
 		  color: rgba(255, 255, 255, 0.8);
 		  font-size: 40px;
-		  font-weight: 300;
+		  font-weight: 400;
 		  line-height: 900px;
 		  text-align: center;
 		  text-transform: uppercase;
@@ -1106,7 +1116,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		
 		section.module.parallax-2 {
 			height:400px;
-			background-position: 50% 50%;
+			background-position: 50% 25%;
 		  background-repeat: no-repeat;
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
@@ -1115,17 +1125,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		}
 		
 		section.module.parallax-2 {
-		   background-image: url("images/turtle.jpg");
+		   background-image: url("images/turtle-bg.jpg");
 		}
 		
 		section.module.parallax-2 h1 {
-		  color: rgba(255, 255, 255, 0.8);
+		  color: white;
 		  font-size: 30px;
-		  font-weight: 300;
+		  font-weight: 400;
 		  line-height: 400px;
 		  text-align: center;
 		  text-transform: uppercase;
-		  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 		  margin-top:0px;
 		}
 		
@@ -1144,7 +1154,40 @@ Use it to make something cool, have fun, and share what you've learned with othe
 			margin-left:10px;
 			
 		}
- 
+		
+		.languages-home{
+			/* display:inline; */
+			position: absolute;
+			top: 600px;
+			left:0;
+			right:0;
+			margin-left:auto;
+			margin-right:auto;
+			width: 100%;
+			text-align: center;
+		}
+		.languages-home div{
+			margin-left:10px;
+			
+		}
+ 		
+ 		.languages-home span{
+ 			color:white;
+ 			font-size:24px;
+ 			font-weight:400px;
+ 			/* text-shadow: 2px 2px black; */
+ 		}
+ 		
+ 		.languages-home span:hover{
+ 			opacity:0.7;
+ 			text-decoration:none !important;
+ 			-webkit-transition: opacity 0.35s;
+			transition: opacity 0.35s;
+ 		}
+ 		
+ 		.languages-home a:hover{
+ 			text-decoration:none !important;
+ 		}
  
 
 
